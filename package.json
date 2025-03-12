@@ -1,0 +1,25 @@
+{
+  "name": "chatbot-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.30",
+    "@langchain/core": "^0.3.40",
+    "@langchain/langgraph": "^0.2.46",
+    "@langchain/langgraph-checkpoint-mongodb": "^0.0.6",
+    "@langchain/openai": "^0.4.4",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.15",
+    "langfuse": "^3.36.0",
+    "langfuse-langchain": "^3.36.0",
+    "mongodb": "^6.13.1"
+  }
+}
